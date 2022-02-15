@@ -1,0 +1,67 @@
+
+.Enter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Inter";
+    height:720px;
+    color: #313131;
+    background-color: white;
+    .Title{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin: 0;
+
+        .IN,.ER,.T{
+            
+            font-size: 20vw;
+            margin: 0;
+        }
+        .T{
+            position: absolute;
+            top: -20%;
+            left:34%
+        }
+    }
+    h2{
+        font-size: 2.3vw;
+        margin: 0;
+        padding:2% 0;
+    }
+
+    button{
+        background-color: white;
+        width: 30%;
+        height:10%;
+        border-radius: 50px;
+        color:#313131;
+        border: #313131 2px solid;
+        font-size: 1.3vw;
+        font-weight: 600;
+    }
+
+    .Ref{
+        display: flex;
+        flex-direction: column;
+        justify-content:end ;
+        align-items:center ;
+        h3{
+            font-size: 1.4vw;
+            font-weight: 400;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            .redkey{
+                color: red;
+                font-size: .9vw;
+            }
+        }
+    }
+  }
+  
+  

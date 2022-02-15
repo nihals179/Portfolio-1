@@ -1,0 +1,373 @@
+$uni-pad: 0 2%;
+$font:"Inter";
+
+.section-1 {
+  width: 94%;
+  height: 10%;
+  font-family: $font;
+  display: flex;
+  color: #313131;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+
+  .info {
+    padding: 0;
+  }
+
+  .logo {
+    font-family: $font;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.7vw;
+    margin: 0;
+    padding: 0 15%;
+
+  }
+
+  .slog {
+    text-align: right;
+    display: flex;
+    font-size: 1.8vw;
+
+    flex-direction: column;
+    line-height: 1.1;
+    justify-content: space-around;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .ref {
+    padding: $uni-pad;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+}
+
+.section-2 {
+  div {
+    line-height: 1;
+
+    .computer {
+      font-family: "Inter";
+      font-weight: 400;
+      font-size: 11.1vw;
+      font-weight: bolder;
+      font-style: italic;
+      color: whitesmoke;
+      margin: 0;
+      text-transform: uppercase;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #313131;
+    }
+  }
+}
+
+.Scroll {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 1.1vw;
+  margin: 2% 3%;
+}
+
+.who {
+  padding: $uni-pad;
+  margin: 10% 0;
+
+  .photo {
+    width: 35%;
+
+    img {
+      width: 70%;
+    }
+  }
+
+  .description {
+    width: 65%;
+    font-size: large;
+    font-family: "Inter";
+    font-weight: 600;
+
+    .Rasmus {
+      margin: 40;
+      padding: 0;
+    }
+
+  }
+}
+
+.section-3 {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    position: relative;
+
+    p {
+      font-size: 15vw;
+      font-family: "Inter";
+      margin: 0;
+      margin-right: 30%;
+      font-weight: 500;
+    }
+
+    .l1 {
+      position: absolute;
+      top: 20%;
+      left: -3%;
+      width: 80%;
+      border: #313131 1px solid;
+    }
+
+    .l2 {
+      position: absolute;
+      top: 35%;
+      left: -3%;
+      width: 80%;
+      border: #313131 1px solid;
+    }
+
+    .l3 {
+      position: absolute;
+      top: 80%;
+      left: -3%;
+      width: 80%;
+      border: #313131 1px solid;
+    }
+
+    .h1 {
+      position: absolute;
+      height: 60%;
+      width: .3%;
+      top: 20%;
+      right: 35%;
+      background-color: blue;
+    }
+
+    .h2 {
+      position: absolute;
+      height: 15%;
+      width: .3%;
+      top: 20%;
+      right: 30%;
+      background-color: blue;
+    }
+
+    .arrowup1 {
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 20%;
+      right: 34.1%;
+      border-bottom: 10px solid blue;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+
+    }
+
+    .arrowdown1 {
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 77%;
+      right: 34.1%;
+      border-top: 10px solid blue;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+
+    }
+
+    .arrowdown2 {
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 32%;
+      right: 29%;
+      border-top: 10px solid blue;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+
+    }
+
+    .arrowup2 {
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 20%;
+      right: 29%;
+      border-bottom: 10px solid blue;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+
+    }
+  }
+
+
+}
+
+.section-4 {
+  div {
+    color: #313131;
+
+    .Examples {
+      width: 100%;
+      position: relative;
+
+      .title {
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 10%;
+        left: 23%;
+        font-family: "Inter";
+        color: #313131;
+        font-size: 3vw;
+      }
+
+      .ExampleLine {
+        position: absolute;
+        height: 100%;
+        left: 46%;
+        width: 2px;
+        background-color: #313131;
+      }
+
+      text-align: right;
+    }
+  }
+
+  .section-5 {
+    .Body {
+      .right {
+        width: 40%;
+      }
+    }
+  }
+}
+
+.section-7 {
+  min-height: 100%;
+
+  .Title {
+    position: relative;
+    min-height: 800px;
+
+    .MTitle {
+      width: 30%;
+      padding: 5% 0;
+    }
+
+    .Mlogo {
+      width: 20%;
+      padding: 3% 0;
+    }
+  }
+
+  .body {
+    position: relative;
+
+    .img1 {
+      width: 100%;
+    }
+
+    .img2 {
+      width: 80%;
+      position: absolute;
+      top: 70%;
+      left: -20%;
+    }
+  }
+}
+
+.section-8 {
+  .body {
+    .left {
+      p {
+        padding: 3% 0;
+      }
+    }
+
+    .right {
+      padding: 3% 0;
+      padding-left: 7%;
+      position: relative;
+
+      .github {
+
+        img {
+          position: absolute;
+          left: 2%;
+          top: 11%;
+        }
+
+        p {
+          position: absolute;
+          left: 14%;
+          top: 13%;
+          font-size: 1.6vw;
+        }
+
+      }
+
+      .row2 {
+        .interlogo {
+          position: absolute;
+          top: 60%;
+        }
+
+        .githublogo {
+          position: absolute;
+          top: 70%;
+          right: 5%;
+        }
+      }
+    }
+  }
+}
+
+.section-9 {
+  div {
+    p {
+      padding: 3% 0;
+
+    }
+
+    div {
+      p {
+        font-family: $font;
+        font-size: 1.6vw;
+        margin: 0;
+      }
+
+      img {
+        padding: 0 2%;
+      }
+    }
+  }
+
+  .slog {
+    text-align: right;
+    display: flex;
+    font-size: 3vw;
+    flex-direction: column;
+    width: 25%;
+    line-height: 1.3;
+    font-family: $font;
+    color: #313131;
+    justify-content: space-around;
+
+    p {
+      margin: 10%;
+    }
+  }
+}
